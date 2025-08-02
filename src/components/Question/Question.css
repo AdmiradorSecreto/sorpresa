@@ -1,0 +1,90 @@
+.question-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  width: 90%;
+  max-width: 600px;
+  margin: 30px auto;
+  padding: 30px;
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 15px;
+  box-shadow: 0 0 20px rgba(255, 215, 0, 0.3);
+}
+
+/* Estilo del texto de la pregunta */
+.question-text {
+  font-size: 1.5rem;
+  color: var(--white);
+  text-align: center;
+  line-height: 1.6;
+}
+
+/* Contenedor de las opciones */
+.options-container {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 100%;
+}
+
+/* Botones de las opciones */
+.option-button {
+  width: 100%;
+  padding: 15px;
+  background-color: var(--wine-red);
+  color: var(--white);
+  border: 2px solid var(--gold);
+  border-radius: 10px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.option-button:hover:not(:disabled) {
+  background-color: #A00030;
+  transform: translateY(-3px);
+  box-shadow: 0 6px 15px rgba(255, 215, 0, 0.5);
+}
+
+/* Estados de los botones */
+.option-button:disabled {
+  cursor: not-allowed;
+  opacity: 0.7;
+}
+
+.option-button.correct {
+  background-color: #2E8B57; /* Verde para la respuesta correcta */
+  border-color: #2E8B57;
+  color: var(--white);
+  animation: pulseCorrect 1s ease-in-out forwards;
+}
+
+.option-button.incorrect {
+  background-color: #B22222; /* Rojo para la respuesta incorrecta */
+  border-color: #B22222;
+  color: var(--white);
+}
+
+/* Estilos para los mensajes de feedback */
+.feedback-correct {
+  color: var(--gold);
+  font-weight: bold;
+  font-size: 1.2rem;
+  margin-top: 10px;
+  animation: fadeIn 0.5s ease-in;
+}
+
+.feedback-hint {
+  color: #FFA500; /* Naranja para la pista */
+  font-style: italic;
+  font-size: 1rem;
+  margin-top: 15px;
+  text-align: center;
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-left: 3px solid #FFA500;
+  border-radius: 5px;
+}

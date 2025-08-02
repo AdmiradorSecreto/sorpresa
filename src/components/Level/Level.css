@@ -1,0 +1,42 @@
+.level-intro-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  width: 90%;
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 40px;
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 20px;
+  box-shadow: 0 0 30px rgba(255, 215, 0, 0.4);
+  text-align: center;
+  min-height: 400px;
+}
+
+/* Título de la introducción */
+.level-intro-title {
+  font-size: 3rem;
+  font-family: 'Georgia', serif;
+  color: var(--white);
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+/* Subtítulo o mensaje motivador */
+.level-intro-subtitle {
+  font-size: 1.5rem;
+  color: var(--gold);
+  margin-top: -20px;
+}
+
+/* Media queries para adaptar el diseño en móviles */
+@media (max-width: 768px) {
+  .level-intro-title {
+    font-size: 2.5rem;
+  }
+
+  .level-intro-subtitle {
+    font-size: 1.2rem;
+  }
+}

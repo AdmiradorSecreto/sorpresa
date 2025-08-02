@@ -1,0 +1,38 @@
+.home-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #800020;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+.home-title {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  font-family: 'Georgia', serif;
+}
+
+.home-subtitle {
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+  font-family: 'Georgia', serif;
+}
+
+.start-button {
+  padding: 15px 30px;
+  font-size: 1.2rem;
+  background-color: gold;
+  color: #800020;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.start-button:hover {
+  transform: scale(1.05);
+}
