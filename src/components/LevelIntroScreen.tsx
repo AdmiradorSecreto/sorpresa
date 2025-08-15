@@ -44,7 +44,7 @@ export function LevelIntroScreen({ level }: LevelIntroScreenProps) {
 
         <button
           onClick={() => dispatch({ type: "START_LEVEL" })}
-          className="group relative px-10 py-4 font-semibold text-lg rounded-full shadow-2xl transform transition-all duration-300 hover:scale-105 animate-bounce-subtle"
+          className="group relative px-10 py-4 font-semibold text-lg rounded-full shadow-2xl transform transition-all duration-300 hover:scale-105"
           style={{
             backgroundColor: textColor === "#ffffff" ? "rgba(255, 255, 255, 0.15)" : "rgba(0, 0, 0, 0.15)",
             color: textColor,

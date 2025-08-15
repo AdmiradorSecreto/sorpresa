@@ -53,8 +53,13 @@ module.exports = {
         sm: "calc(var(--radius) - 4px)",
       },
       fontFamily: {
-        serif: ["Playfair Display", "serif"],
-        sans: ["Inter", "sans-serif"],
+        // Inter como fuente principal
+        sans: ['var(--font-sans)', 'Inter', 'system-ui', 'sans-serif'],
+        // Cambiar Playfair a Inter también, o comentar esta línea
+        // serif: ['Playfair Display', 'serif'],
+        serif: ['var(--font-sans)', 'Inter', 'system-ui', 'sans-serif'],
+        // Nueva clase específica para Inter
+        inter: ['var(--font-sans)', 'Inter', 'system-ui', 'sans-serif'],
       },
       animation: {
         "spin-slow": "spin 20s linear infinite",

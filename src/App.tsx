@@ -46,7 +46,7 @@ function GameContent() {
 function App() {
   return (
     <GameProvider>
-      <div className="font-serif">
+      <div className="font-sans">
         <GameContent />
       </div>
     </GameProvider>
