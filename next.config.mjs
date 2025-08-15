@@ -9,6 +9,9 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
+  output: 'export', // necesario para next export
+  basePath: process.env.NODE_ENV === 'production' ? '/sorpresa' : '',
+  assetPrefix: process.env.NODE_ENV === 'production' ? '/sorpresa/' : '',
 }
 
 export default nextConfig
