@@ -22,7 +22,7 @@ type GameAction =
 const initialState: GameState = {
   currentLevel: 1,
   currentQuestion: 0,
-  totalLevels: 6,
+  totalLevels: 7,
   isGameComplete: false,
   showHint: false,
   gamePhase: "welcome",

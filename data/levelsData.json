@@ -7,17 +7,73 @@
     "questions": [
       {
         "id": 1,
-        "text": "¿Cómo se llama el personaje que interpreta Martina Stoessel en Violetta?",
-        "options": ["Violetta", "Ludmila", "Francesca", "Camila"],
+        "text": "¿Cómo se llama el personaje que interpreta Martina Stoessel?",
+        "options": ["Ludmila", "Violetta", "Francesca", "Camila"],
         "answer": "Violetta",
-        "hint": "Es el mismo nombre que el título de la serie. ¡Fácil!"
+        "hint": "Su nombre aparece en el título de la serie."
       },
       {
         "id": 2,
-        "text": "¿Cuál es el nombre del café donde cantan en la serie?",
-        "options": ["On Beat", "Music Time", "Studio 21", "Pop Star Cafe"],
+        "text": "¿Cuál es el nombre del café donde cantan los personajes?",
+        "options": ["Music Time", "Pop Star Cafe", "On Beat", "Studio 21"],
         "answer": "On Beat",
-        "hint": "Tiene un nombre en inglés relacionado con el ritmo musical."
+        "hint": "El nombre está relacionado con ritmo musical."
+      },
+      {
+        "id": 3,
+        "text": "¿Quién es la mejor amiga de Violetta en la serie?",
+        "options": ["Francesca", "Ludmila", "Camila", "Ágata"],
+        "answer": "Camila",
+        "hint": "No es la rival ni la antagonista."
+      },
+      {
+        "id": 4,
+        "text": "¿Qué instrumento toca León, el interés romántico de Violetta?",
+        "options": ["Guitarra", "Piano", "Violín", "Batería"],
+        "answer": "Guitarra",
+        "hint": "Es un instrumento de cuerda."
+      },
+      {
+        "id": 5,
+        "text": "¿Quién suele ser la antagonista principal en las primeras temporadas?",
+        "options": ["Francesca", "Violetta", "Camila", "Ludmila"],
+        "answer": "Ludmila",
+        "hint": "Es glamorosa y competitiva."
+      },
+      {
+        "id": 6,
+        "text": "¿Cómo se llama el padre de Violetta?",
+        "options": ["Germán", "Federico", "Diego", "Andrés"],
+        "answer": "Germán",
+        "hint": "Es sobreprotector y músico."
+      },
+      {
+        "id": 7,
+        "text": "¿Cuál es el nombre del conservatorio donde estudian?",
+        "options": ["Studio On Beat", "Academia de Música", "Studio 21", "Conservatorio Real"],
+        "answer": "Studio On Beat",
+        "hint": "También es donde se encuentra el café."
+      },
+      {
+        "id": 8,
+        "text": "¿Qué personaje es conocido por su cabello rizado y personalidad divertida?",
+        "options": ["Maxi", "Federico", "Broduey", "Andrés"],
+        "answer": "Maxi",
+        "hint": "Suele ser el cómico del grupo."
+      },
+      {
+        "id": 9,
+        "text": "¿Cuál es el nombre de la hermanastra de Ludmila?",
+        "options": ["Naty", "Francesca", "Camila", "Violetta"],
+        "answer": "Naty",
+        "hint": "Es muy leal pero a veces insegura."
+      },
+      {
+        "id": 10,
+        "text": "¿En qué ciudad se desarrolla principalmente la serie?",
+        "options": ["Madrid", "Buenos Aires", "Barcelona", "México DF"],
+        "answer": "Buenos Aires",
+        "hint": "Es la capital de un país sudamericano."
       }
     ]
   },
@@ -25,14 +81,77 @@
     "id": 2,
     "title": "Nivel 2: Sabrina Carpenter",
     "description": "Este nivel va sobre la cantante y actriz Sabrina Carpenter.",
-    "themeColor": "#673AB7",
+    "themeColor": "#9C27B0",
     "questions": [
       {
         "id": 1,
         "text": "¿Cuál es el primer álbum de estudio de Sabrina Carpenter?",
-        "options": ["Eyes Wide Open", "Evolution", "Singular Act I", "Emails I Can't Send"],
+        "options": ["Evolution", "Eyes Wide Open", "Singular Act I", "Emails I Can't Send"],
         "answer": "Eyes Wide Open",
-        "hint": "Se lanzó en 2015. Las palabras son \"Ojos\" y \"Abiertos\" en inglés."
+        "hint": "El nombre habla de abrir los ojos."
+      },
+      {
+        "id": 2,
+        "text": "¿En qué año lanzó Sabrina Carpenter su álbum 'Singular Act I'?",
+        "options": ["2015", "2018", "2019", "2020"],
+        "answer": "2018",
+        "hint": "Fue después de su debut discográfico."
+      },
+      {
+        "id": 3,
+        "text": "¿Qué canción la hizo más conocida en Disney Channel?",
+        "options": ["Thumbs", "On Purpose", "Eyes Wide Open", "Can't Blame a Girl"],
+        "answer": "Can't Blame a Girl",
+        "hint": "Es una canción de sus primeros años."
+      },
+      {
+        "id": 4,
+        "text": "¿Cuál es su segunda producción discográfica?",
+        "options": ["Emails I Can't Send", "Evolution", "Singular Act II", "Eyes Wide Open"],
+        "answer": "Evolution",
+        "hint": "El nombre sugiere crecimiento."
+      },
+      {
+        "id": 5,
+        "text": "Sabrina también actuó en series de Disney, ¿cuál de estas es correcta?",
+        "options": ["Girl Meets World", "Austin & Ally", "The Suite Life", "Liv & Maddie"],
+        "answer": "Girl Meets World",
+        "hint": "Es la continuación de otra serie clásica."
+      },
+      {
+        "id": 6,
+        "text": "¿Cuál es el nombre de su álbum más reciente hasta 2024?",
+        "options": ["Short n' Sweet", "Emails I Can't Send", "Singular Act II", "Fruitcake"],
+        "answer": "Short n' Sweet",
+        "hint": "El título describe algo breve pero agradable."
+      },
+      {
+        "id": 7,
+        "text": "¿Qué personaje interpretó en Girl Meets World?",
+        "options": ["Riley Matthews", "Maya Hart", "Maya's sister", "Harper"],
+        "answer": "Maya Hart",
+        "hint": "Es la mejor amiga de la protagonista."
+      },
+      {
+        "id": 8,
+        "text": "¿Cuál de estas canciones fue un gran éxito en 2024?",
+        "options": ["Espresso", "Feather", "Nonsense", "Because I Liked a Boy"],
+        "answer": "Espresso",
+        "hint": "Tiene que ver con una bebida energizante."
+      },
+      {
+        "id": 9,
+        "text": "¿En qué año nació Sabrina Carpenter?",
+        "options": ["1998", "1999", "2000", "2001"],
+        "answer": "1999",
+        "hint": "Nació en el último año del siglo XX."
+      },
+      {
+        "id": 10,
+        "text": "¿De qué estado de Estados Unidos es originaria?",
+        "options": ["California", "Pennsylvania", "Nueva York", "Florida"],
+        "answer": "Pennsylvania",
+        "hint": "Es un estado del noreste conocido por Filadelfia."
       }
     ]
   },
@@ -45,16 +164,72 @@
       {
         "id": 1,
         "text": "¿Cómo se llama el mejor amigo de Shrek?",
-        "options": ["Burro", "Gato con Botas", "Jengibre", "Lord Farquaad"],
+        "options": ["Gato con Botas", "Burro", "Jengibre", "Lord Farquaad"],
         "answer": "Burro",
-        "hint": "Es un animal parlanchín que no deja de hacer chistes."
+        "hint": "Es parlanchín y muy cómico."
       },
       {
         "id": 2,
         "text": "¿En qué película aparece el Gato con Botas por primera vez?",
-        "options": ["Shrek 1", "Shrek 2", "Shrek Tercero", "Shrek para siempre"],
+        "options": ["Shrek 1", "Shrek Tercero", "Shrek 2", "Shrek para siempre"],
         "answer": "Shrek 2",
-        "hint": "Fue en la segunda película de la saga."
+        "hint": "No fue en la primera película."
+      },
+      {
+        "id": 3,
+        "text": "¿Cuál es la princesa que Shrek rescata al principio?",
+        "options": ["Fiona", "Rapunzel", "Blancanieves", "Aurora"],
+        "answer": "Fiona",
+        "hint": "Su nombre comienza con 'F'."
+      },
+      {
+        "id": 4,
+        "text": "¿Quién es el antagonista principal de la primera película?",
+        "options": ["Burro", "Gato con Botas", "Hada Madrina", "Lord Farquaad"],
+        "answer": "Lord Farquaad",
+        "hint": "Es de estatura baja y gran ambición."
+      },
+      {
+        "id": 5,
+        "text": "¿Qué dulce famoso intenta capturar el Príncipe Encantador para su plan en Shrek 2?",
+        "options": ["Jengibre", "Galleta de mantequilla", "Pastel de manzana", "Tarta de limón"],
+        "answer": "Jengibre",
+        "hint": "Es un personaje pequeño y de jengibre que habla."
+      },
+      {
+        "id": 6,
+        "text": "¿Quién es la antagonista principal de Shrek 2?",
+        "options": ["Rapunzel", "La Reina", "Hada Madrina", "Cenicienta"],
+        "answer": "Hada Madrina",
+        "hint": "Usa magia y quiere casar a su hijo con Fiona."
+      },
+      {
+        "id": 7,
+        "text": "¿Cómo se llama el hijo del Hada Madrina?",
+        "options": ["Príncipe Azul", "Príncipe Encantador", "Príncipe Valiente", "Príncipe Hermoso"],
+        "answer": "Príncipe Encantador",
+        "hint": "Su nombre describe su supuesta personalidad."
+      },
+      {
+        "id": 8,
+        "text": "¿Dónde vive Shrek al principio de la saga?",
+        "options": ["En un castillo", "En una casa", "En un pantano", "En una cueva"],
+        "answer": "En un pantano",
+        "hint": "Es un lugar húmedo y fangoso."
+      },
+      {
+        "id": 9,
+        "text": "¿Qué transforma a Fiona durante las noches?",
+        "options": ["Una maldición", "La luna llena", "Un hechizo", "Su naturaleza"],
+        "answer": "Una maldición",
+        "hint": "Es algo mágico que la afecta cíclicamente."
+      },
+      {
+        "id": 10,
+        "text": "¿Cuál es el nombre del reino donde gobierna Lord Farquaad?",
+        "options": ["Muy Muy Lejano", "DuLoc", "Far Far Away", "Reino Encantado"],
+        "answer": "DuLoc",
+        "hint": "Es un nombre corto y extraño."
       }
     ]
   },
@@ -69,7 +244,70 @@
         "text": "¿En qué año se fundó la Guardia Civil de España?",
         "options": ["1844", "1936", "1492", "1808"],
         "answer": "1844",
-        "hint": "Fue en el siglo XIX. Suma 1800 + 44."
+        "hint": "Siglo XIX, después de las guerras napoleónicas."
+      },
+      {
+        "id": 2,
+        "text": "¿Quién fue el fundador de la Guardia Civil?",
+        "options": ["Francisco Javier Girón", "Miguel de Cervantes", "Isabel II", "Antonio Machado"],
+        "answer": "Francisco Javier Girón",
+        "hint": "Era un militar noble del siglo XIX."
+      },
+      {
+        "id": 3,
+        "text": "¿Qué color identifica tradicionalmente el uniforme de la Guardia Civil?",
+        "options": ["Azul marino", "Negro", "Verde oscuro", "Rojo"],
+        "answer": "Verde oscuro",
+        "hint": "Color asociado con lo militar y rural."
+      },
+      {
+        "id": 4,
+        "text": "¿Cuál es uno de los símbolos más representativos de la Guardia Civil?",
+        "options": ["El león rampante", "La espada y la corona", "La balanza", "La estrella roja"],
+        "answer": "La espada y la corona",
+        "hint": "Representa autoridad y protección."
+      },
+      {
+        "id": 5,
+        "text": "¿Qué función desempeña principalmente la Guardia Civil?",
+        "options": ["Transporte urbano", "Educación", "Salud pública", "Seguridad rural y fronteras"],
+        "answer": "Seguridad rural y fronteras",
+        "hint": "No trabaja principalmente en ciudades."
+      },
+      {
+        "id": 6,
+        "text": "¿Cómo se conoce popularmente a los miembros de la Guardia Civil?",
+        "options": ["Guardias", "Civiles", "Tricornios", "Verdes"],
+        "answer": "Tricornios",
+        "hint": "Se refiere a una parte de su uniforme tradicional."
+      },
+      {
+        "id": 7,
+        "text": "¿Cuál es el lema oficial de la Guardia Civil?",
+        "options": ["Honor y Patria", "El honor es mi divisa", "Servir y proteger", "Todo por España"],
+        "answer": "El honor es mi divisa",
+        "hint": "Habla de un valor moral personal."
+      },
+      {
+        "id": 8,
+        "text": "¿Bajo qué ministerio está actualmente la Guardia Civil?",
+        "options": ["Interior", "Defensa", "Justicia", "Hacienda"],
+        "answer": "Interior",
+        "hint": "Es el mismo que gestiona la seguridad ciudadana."
+      },
+      {
+        "id": 9,
+        "text": "¿Cuál es el rango más alto en la Guardia Civil?",
+        "options": ["General Director", "Coronel", "Comandante", "Capitán"],
+        "answer": "General Director",
+        "hint": "Combina rango militar con función directiva."
+      },
+      {
+        "id": 10,
+        "text": "¿Qué tipo de organización es la Guardia Civil?",
+        "options": ["Militar", "Civil", "Militar de naturaleza civil", "Policial urbana"],
+        "answer": "Militar de naturaleza civil",
+        "hint": "Tiene características de ambos tipos."
       }
     ]
   },
@@ -82,14 +320,72 @@
       {
         "id": 1,
         "text": "¿Cómo se llama el mirador más famoso de Granada?",
-        "options": [
-          "Mirador de San Nicolás",
-          "Mirador de San Cristóbal",
-          "Mirador de la Alhambra",
-          "Mirador de la Mezquita"
-        ],
+        "options": ["Mirador de la Alhambra", "Mirador de San Nicolás", "Mirador de San Cristóbal", "Mirador de la Mezquita"],
         "answer": "Mirador de San Nicolás",
-        "hint": "Está en el barrio del Albaicín y lleva el nombre de un santo."
+        "hint": "Se encuentra en el Albaicín."
+      },
+      {
+        "id": 2,
+        "text": "¿Cuál es el palacio más famoso de la Alhambra?",
+        "options": ["Palacio de Carlos V", "Palacio de los Leones", "Palacio de Comares", "Palacio de la Reina"],
+        "answer": "Palacio de los Leones",
+        "hint": "Su nombre viene de las estatuas de su patio central."
+      },
+      {
+        "id": 3,
+        "text": "¿Qué río cruza Granada?",
+        "options": ["Genil", "Guadalquivir", "Ebro", "Tajo"],
+        "answer": "Genil",
+        "hint": "Es afluente del Guadalquivir."
+      },
+      {
+        "id": 4,
+        "text": "¿Qué barrio tradicional se encuentra junto a la Alhambra?",
+        "options": ["Albaicín", "Realejo", "Sacromonte", "Chana"],
+        "answer": "Albaicín",
+        "hint": "Es Patrimonio de la Humanidad."
+      },
+      {
+        "id": 5,
+        "text": "¿En qué barrio se encuentran las famosas cuevas del flamenco?",
+        "options": ["Albaicín", "Realejo", "Centro", "Sacromonte"],
+        "answer": "Sacromonte",
+        "hint": "Es conocido por los gitanos y el flamenco."
+      },
+      {
+        "id": 6,
+        "text": "¿Cómo se llama el primer hotel donde nos alojamos?",
+        "options": ["Hotel Medinal", "Hotel de la Alhambra", "Hotel Saray", "Hotel Granada"],
+        "answer": "Hotel Saray",
+        "hint": "Es una pregunta personal."
+      },
+      {
+        "id": 7,
+        "text": "¿Cuál es la catedral más importante de Granada?",
+        "options": ["Catedral de Granada", "Basílica de San Juan", "Iglesia de Santa Ana", "Capilla Real"],
+        "answer": "Catedral de Granada",
+        "hint": "También se conoce como Catedral de la Encarnación."
+      },
+      {
+        "id": 8,
+        "text": "¿Qué reyes están enterrados en la Capilla Real?",
+        "options": ["Los Reyes Católicos", "Carlos V y su esposa", "Felipe II", "Alfonso X"],
+        "answer": "Los Reyes Católicos",
+        "hint": "Conquistaron Granada en 1492."
+      },
+      {
+        "id": 9,
+        "text": "¿Cuál es el dulce típico más famoso de Granada?",
+        "options": ["Torrijas", "Piononos", "Pestiños", "Polvorones"],
+        "answer": "Piononos",
+        "hint": "Son pequeños y llevan crema tostada."
+      },
+      {
+        "id": 10,
+        "text": "¿En qué año conquistaron los Reyes Católicos Granada?",
+        "options": ["1490", "1491", "1492", "1493"],
+        "answer": "1492",
+        "hint": "El mismo año del descubrimiento de América."
       }
     ]
   },
@@ -101,10 +397,151 @@
     "questions": [
       {
         "id": 1,
-        "text": "¿Qué animal representa el capítulo que habla sobre la importancia de la paciencia?",
-        "options": ["Tortuga", "León", "Elefante", "Cisne"],
+        "text": "¿Qué animal representa el capítulo sobre la paciencia?",
+        "options": ["León", "Tortuga", "Elefante", "Cisne"],
         "answer": "Tortuga",
-        "hint": "Es un animal conocido por su lentitud y larga vida."
+        "hint": "Es conocida por su lentitud."
+      },
+      {
+        "id": 2,
+        "text": "¿Qué valor principal se destaca en el capítulo de la cooperación?",
+        "options": ["Individualismo", "Trabajo en equipo", "Competencia", "Indiferencia"],
+        "answer": "Trabajo en equipo",
+        "hint": "Implica colaboración entre personas."
+      },
+      {
+        "id": 3,
+        "text": "¿Qué metáfora se usa para hablar del autoconocimiento?",
+        "options": ["El espejo", "El viaje", "El árbol", "El río"],
+        "answer": "El espejo",
+        "hint": "Refleja nuestra imagen."
+      },
+      {
+        "id": 4,
+        "text": "¿Cuál es la lección principal del capítulo sobre resiliencia?",
+        "options": ["Superar dificultades", "Evitar problemas", "Seguir reglas", "Ignorar errores"],
+        "answer": "Superar dificultades",
+        "hint": "Se trata de recuperarse de adversidades."
+      },
+      {
+        "id": 5,
+        "text": "En el libro, ¿qué elemento se asocia con la creatividad?",
+        "options": ["Fuego", "Agua", "Tierra", "Aire"],
+        "answer": "Aire",
+        "hint": "Es intangible y libre."
+      },
+      {
+        "id": 6,
+        "text": "¿Qué símbolo representa la amistad en el libro?",
+        "options": ["El puente", "La cadena", "El círculo", "La estrella"],
+        "answer": "El puente",
+        "hint": "Une dos puntos separados."
+      },
+      {
+        "id": 7,
+        "text": "¿Cuál es el tema central del primer capítulo?",
+        "options": ["La identidad personal", "La familia", "Los sueños", "El futuro"],
+        "answer": "La identidad personal",
+        "hint": "Se trata de conocerse a uno mismo."
+      },
+      {
+        "id": 8,
+        "text": "¿Qué color se asocia con la tranquilidad en el libro?",
+        "options": ["Rojo", "Verde", "Azul", "Amarillo"],
+        "answer": "Azul",
+        "hint": "Es el color del cielo y el mar."
+      },
+      {
+        "id": 9,
+        "text": "¿Qué enseñanza da sobre los errores?",
+        "options": ["Evitarlos siempre", "Son oportunidades de aprender", "No importan", "Solo los cometen los tontos"],
+        "answer": "Son oportunidades de aprender",
+        "hint": "Los ve de forma positiva."
+      },
+      {
+        "id": 10,
+        "text": "¿Cuál es la metáfora usada para hablar del crecimiento personal?",
+        "options": ["La semilla", "La montaña", "El océano", "El fuego"],
+        "answer": "La semilla",
+        "hint": "Algo pequeño que crece con el tiempo."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Nivel 7: Ladybug",
+    "description": "Este nivel va sobre la serie de \"Miraculous: Las aventuras de Ladybug y Cat Noir\".",
+    "themeColor": "#E53935",
+    "questions": [
+      {
+        "id": 1,
+        "text": "¿Cuál es el nombre real de Ladybug?",
+        "options": ["Alya Césaire", "Marinette Dupain-Cheng", "Chloé Bourgeois", "Lila Rossi"],
+        "answer": "Marinette Dupain-Cheng",
+        "hint": "Sueña con ser diseñadora de moda."
+      },
+      {
+        "id": 2,
+        "text": "¿Cómo se llama el kwami de Ladybug?",
+        "options": ["Tikki", "Plagg", "Nooroo", "Wayzz"],
+        "answer": "Tikki",
+        "hint": "Es rojo con puntos negros."
+      },
+      {
+        "id": 3,
+        "text": "¿Cuál es la identidad secreta de Cat Noir?",
+        "options": ["Luka Couffaine", "Nathaniel Kurtzberg", "Adrien Agreste", "Nino Lahiffe"],
+        "answer": "Adrien Agreste",
+        "hint": "Es modelo y su padre es diseñador."
+      },
+      {
+        "id": 4,
+        "text": "¿Quién es el villano principal que crea los akumas?",
+        "options": ["Shadow Moth", "Hawk Moth", "Gabriel Agreste", "Mayura"],
+        "answer": "Hawk Moth",
+        "hint": "Su nombre incluye un tipo de mariposa nocturna."
+      },
+      {
+        "id": 5,
+        "text": "¿Cuál es el poder especial de Ladybug?",
+        "options": ["Lucky Charm", "Cataclysm", "Venom", "Mirage"],
+        "answer": "Lucky Charm",
+        "hint": "Crea un objeto que la ayuda a resolver problemas."
+      },
+      {
+        "id": 6,
+        "text": "¿En qué ciudad transcurre la serie?",
+        "options": ["Londres", "Nueva York", "París", "Barcelona"],
+        "answer": "París",
+        "hint": "Es la ciudad del amor y tiene una torre famosa."
+      },
+      {
+        "id": 7,
+        "text": "¿Cómo se llama la mejor amiga de Marinette?",
+        "options": ["Alya Césaire", "Juleka Couffaine", "Rose Lavillant", "Mylène Haprèle"],
+        "answer": "Alya Césaire",
+        "hint": "Es bloguera y quiere descubrir la identidad de Ladybug."
+      },
+      {
+        "id": 8,
+        "text": "¿Cuál es el poder de Cat Noir?",
+        "options": ["Lucky Charm", "Cataclysm", "Venom", "Second Chance"],
+        "answer": "Cataclysm",
+        "hint": "Puede destruir cualquier cosa que toque."
+      },
+      {
+        "id": 9,
+        "text": "¿Cómo se llama el kwami de Cat Noir?",
+        "options": ["Tikki", "Plagg", "Trixx", "Pollen"],
+        "answer": "Plagg",
+        "hint": "Es negro y le encanta el queso."
+      },
+      {
+        "id": 10,
+        "text": "¿Qué objeto usa Marinette para transformarse?",
+        "options": ["Pendientes", "Collar", "Anillo", "Pulsera"],
+        "answer": "Pendientes",
+        "hint": "Los lleva en las orejas y son rojos con puntos negros."
       }
     ]
   }
