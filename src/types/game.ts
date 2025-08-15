@@ -17,12 +17,8 @@ export interface Level {
 export interface GameState {
   currentLevel: number
   currentQuestion: number
-  completedLevels: number[]
+  totalLevels: number
   isGameComplete: boolean
   showHint: boolean
-  selectedAnswer: string | null
-  isAnswerCorrect: boolean | null
-  activeScreen: GameScreen 
+  gamePhase: "welcome" | "level-intro" | "game" | "final"
 }
-
-export type GameScreen = "welcome" | "level-intro" | "questions" | "final"

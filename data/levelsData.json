@@ -2,7 +2,7 @@
   {
     "id": 1,
     "title": "Nivel 1: Violetta",
-    "description": "Este nivel va sobre Violetta, la serie musical que conquistó corazones. Demuestra tu conocimiento sobre esta historia llena de música y sueños.",
+    "description": "Este nivel va sobre la serie Violetta y sus personajes principales.",
     "themeColor": "#E91E63",
     "questions": [
       {
@@ -24,8 +24,8 @@
   {
     "id": 2,
     "title": "Nivel 2: Sabrina Carpenter",
-    "description": "Este nivel va sobre Sabrina Carpenter, la talentosa cantante y actriz. Pon a prueba tu conocimiento sobre su carrera musical.",
-    "themeColor": "#9C27B0",
+    "description": "Este nivel va sobre la cantante y actriz Sabrina Carpenter.",
+    "themeColor": "#673AB7",
     "questions": [
       {
         "id": 1,
@@ -39,7 +39,7 @@
   {
     "id": 3,
     "title": "Nivel 3: Shrek",
-    "description": "Este nivel va sobre Shrek, el ogro más querido del cine. Demuestra cuánto sabes sobre este mundo de fantasía y humor.",
+    "description": "Este nivel va sobre la famosa saga de películas de Shrek.",
     "themeColor": "#4CAF50",
     "questions": [
       {
@@ -61,7 +61,7 @@
   {
     "id": 4,
     "title": "Nivel 4: Guardia Civil",
-    "description": "Este nivel va sobre la Guardia Civil de España. Demuestra tu conocimiento sobre esta institución y su historia.",
+    "description": "Este nivel va sobre la historia de la Guardia Civil española.",
     "themeColor": "#2E7D32",
     "questions": [
       {
@@ -76,7 +76,7 @@
   {
     "id": 5,
     "title": "Nivel 5: Granada",
-    "description": "Este nivel va sobre Granada, la hermosa ciudad andaluza. Pon a prueba tu conocimiento sobre sus monumentos y cultura.",
+    "description": "Este nivel va sobre la hermosa ciudad de Granada y sus monumentos.",
     "themeColor": "#D32F2F",
     "questions": [
       {
@@ -96,7 +96,7 @@
   {
     "id": 6,
     "title": "Nivel 6: El arte de ser nosotros",
-    "description": "Este nivel va sobre \"El arte de ser nosotros\", una obra que nos enseña sobre la vida y las relaciones humanas.",
+    "description": "Este nivel va sobre el libro \"El arte de ser nosotros\" y sus enseñanzas.",
     "themeColor": "#FF8F00",
     "questions": [
       {
