@@ -4,8 +4,8 @@ const nextConfig = {
   typescript: { ignoreBuildErrors: true },
   images: { unoptimized: true },
   output: 'export',
-  basePath: '/sorpresa',         // nombre del repo en GitHub
-  assetPrefix: '/sorpresa/',     // asegura que los assets carguen correctamente
+  basePath: '/sorpresa',      // tu repo en GitHub
+  assetPrefix: '/sorpresa/',  // asegura que los assets se carguen
 }
 
-export default nextConfig;
+export default nextConfig
