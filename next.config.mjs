@@ -1,17 +1,11 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  eslint: {
-    ignoreDuringBuilds: true,
-  },
-  typescript: {
-    ignoreBuildErrors: true,
-  },
-  images: {
-    unoptimized: true,
-  },
-  output: 'export', // necesario para next export
-  basePath: process.env.NODE_ENV === 'production' ? '/sorpresa' : '',
-  assetPrefix: process.env.NODE_ENV === 'production' ? '/sorpresa/' : '',
+  eslint: { ignoreDuringBuilds: true },
+  typescript: { ignoreBuildErrors: true },
+  images: { unoptimized: true },
+  output: 'export',
+  basePath: '/sorpresa',         // nombre del repo en GitHub
+  assetPrefix: '/sorpresa/',     // asegura que los assets carguen correctamente
 }
 
-export default nextConfig
+export default nextConfig;
