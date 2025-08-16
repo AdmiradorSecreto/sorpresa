@@ -126,7 +126,7 @@ export function FinalScreen() {
           <div className="animate-slide-up">
             <div className="mb-12">
               <p className="text-2xl md:text-3xl text-gray-200 mb-8 leading-relaxed max-w-3xl mx-auto font-light">
-                Has completado todos los niveles del Escape Room con éxito. Tu conocimiento y perseverancia te han llevado hasta aquí.
+                Oleeee, has completado todos los niveles. ¡Felicidades!
               </p>
             </div>
 

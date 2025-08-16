@@ -24,7 +24,7 @@ export function WelcomeScreen() {
           Escape Room
         </h1>
         <p className="text-xl text-gray-200 mb-12 animate-slide-up">
-          Una experiencia inmersiva de preguntas y desafíos
+          ¿No te esperabas esto? <br /> Espero que lo disfrutes y sobre todo te haga ilusión jeje payasa
         </p>
 
         <button
