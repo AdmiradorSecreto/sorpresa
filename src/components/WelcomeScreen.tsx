@@ -6,8 +6,14 @@ import { useState, useEffect } from "react";
 export function WelcomeScreen() {
   const { dispatch } = useGame();
   
-  // Lista de imágenes - rutas simples (Next.js añadirá automáticamente /sorpresa)
-  const images = [
+  // Función para obtener la ruta correcta con basePath
+  const getImagePath = (imageName: string) => {
+    const basePath = '/sorpresa';
+    return `${basePath}${imageName}`;
+  };
+  
+  // Lista de imágenes - nombres de archivo solamente
+  const imageNames = [
     '/1.JPG',
     '/2.JPG', 
     '/3.JPG',
@@ -30,7 +36,7 @@ export function WelcomeScreen() {
       
       setTimeout(() => {
         setCurrentImageIndex((prevIndex) => 
-          prevIndex === images.length - 1 ? 0 : prevIndex + 1
+          prevIndex === imageNames.length - 1 ? 0 : prevIndex + 1
         );
         setIsTransitioning(false);
       }, 500); // Duración de la transición
@@ -38,22 +44,22 @@ export function WelcomeScreen() {
     }, 4000); // Cambia cada 4 segundos
 
     return () => clearInterval(interval);
-  }, [images.length]);
+  }, [imageNames.length]);
 
   return (
     <div className="min-h-screen flex items-center justify-center relative overflow-hidden">
       {/* Slideshow de imágenes de fondo */}
       <div className="absolute inset-0">
-        {images.map((image, index) => (
+        {imageNames.map((imageName, index) => (
           <div
-            key={image}
+            key={imageName}
             className={`absolute inset-0 bg-cover bg-center bg-no-repeat transition-all duration-1000 ease-in-out ${
               index === currentImageIndex 
                 ? 'opacity-100 scale-100' 
                 : 'opacity-0 scale-110'
             }`}
             style={{
-              backgroundImage: `url('${image}')`,
+              backgroundImage: `url('${getImagePath(imageName)}')`,
               backgroundSize: '60%',
               filter: 'blur(6px)',
               transform: `scale(1.1) ${index === currentImageIndex ? 'translateX(0)' : 'translateX(20px)'}`,
@@ -74,7 +80,7 @@ export function WelcomeScreen() {
 
       {/* Indicadores de slideshow */}
       <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 flex space-x-2 z-20">
-        {images.map((_, index) => (
+        {imageNames.map((_, index) => (
           <div
             key={index}
             className={`w-2 h-2 rounded-full transition-all duration-300 ${
