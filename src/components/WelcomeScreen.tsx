@@ -6,19 +6,19 @@ import { useState, useEffect } from "react";
 export function WelcomeScreen() {
   const { dispatch } = useGame();
   
-  // Lista de imágenes - con /sorpresa/ porque las copiamos a out/sorpresa/
+  // Lista de imágenes - rutas simples (Next.js añadirá automáticamente /sorpresa)
   const images = [
-    '/sorpresa/1.JPG',
-    '/sorpresa/2.JPG', 
-    '/sorpresa/3.JPG',
-    '/sorpresa/4.JPG',
-    '/sorpresa/5.JPG',
-    '/sorpresa/6.JPG',
-    '/sorpresa/7.JPG',
-    '/sorpresa/8.JPG',
-    '/sorpresa/9.JPG',
-    '/sorpresa/10.JPG',
-    '/sorpresa/11.JPG'
+    '/1.JPG',
+    '/2.JPG', 
+    '/3.JPG',
+    '/4.JPG',
+    '/5.JPG',
+    '/6.JPG',
+    '/7.JPG',
+    '/8.JPG',
+    '/9.JPG',
+    '/10.JPG',
+    '/11.JPG'
   ];
 
   const [currentImageIndex, setCurrentImageIndex] = useState(0);

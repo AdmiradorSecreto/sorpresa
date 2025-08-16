@@ -47,14 +47,12 @@ jobs:
       # Copiar manualmente los archivos de public
       - name: Copy public assets  
         run: |
-          if [ -d "public" ]; then
-            # Crear directorio sorpresa en out si no existe
-            mkdir -p out/sorpresa
-            # Copiar las imágenes a out/sorpresa/
-            cp -r public/sorpresa/* out/sorpresa/
-            echo "Files copied from public/sorpresa/ to out/sorpresa/"
+          if [ -d "public/sorpresa" ]; then
+            # Copiar las imágenes directamente a out/ (sin crear subcarpeta)
+            cp public/sorpresa/* out/
+            echo "Files copied from public/sorpresa/ to out/ (root level)"
           else
-            echo "No public directory found"
+            echo "No public/sorpresa directory found"
           fi
       
       # Debug: Ver qué hay en out después de copiar
