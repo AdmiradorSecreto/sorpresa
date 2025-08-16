@@ -36,6 +36,13 @@ jobs:
       - name: Build with Next.js
         run: npm run build
       
+      # Copiar manualmente los archivos de public si no se copian automáticamente
+      - name: Copy public assets
+        run: |
+          if [ -d "public" ]; then
+            cp -r public/* out/ || echo "No files to copy or directory doesn't exist"
+          fi
+      
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
