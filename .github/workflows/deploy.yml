@@ -45,11 +45,12 @@ jobs:
           ls -la public/sorpresa/ || echo "No sorpresa subdirectory"
       
       # Copiar manualmente los archivos de public
-      - name: Copy public assets
+      - name: Copy public assets  
         run: |
           if [ -d "public" ]; then
-            cp -r public/* out/
-            echo "Files copied to out/"
+            # Copiar el contenido de public/sorpresa directamente a out/
+            cp -r public/sorpresa/* out/
+            echo "Files copied from public/sorpresa/ to out/"
           else
             echo "No public directory found"
           fi
