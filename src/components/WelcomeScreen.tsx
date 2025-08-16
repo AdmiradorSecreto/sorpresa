@@ -60,7 +60,7 @@ export function WelcomeScreen() {
             }`}
             style={{
               backgroundImage: `url('${getImagePath(imageName)}')`,
-              backgroundSize: '60%',
+              backgroundSize: '80%',
               filter: 'blur(3px)',
               transform: `scale(1.1) ${index === currentImageIndex ? 'translateX(0)' : 'translateX(20px)'}`,
             }}
