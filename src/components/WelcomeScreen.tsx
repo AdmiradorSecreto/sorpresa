@@ -6,19 +6,19 @@ import { useState, useEffect } from "react";
 export function WelcomeScreen() {
   const { dispatch } = useGame();
   
-  // Lista de imágenes 
+  // Lista de imágenes - con extensión .JPG (mayúsculas como los archivos reales)
   const images = [
-    '/sorpresa/1.jpg',
-    '/sorpresa/2.jpg', 
-    '/sorpresa/3.jpg',
-    '/sorpresa/4.jpg',
-    '/sorpresa/5.jpg',
-    '/sorpresa/6.jpg',
-    '/sorpresa/7.jpg',
-    '/sorpresa/8.jpg',
-    '/sorpresa/9.jpg',
-    '/sorpresa/10.jpg',
-    '/sorpresa/11.jpg'
+    '/sorpresa/1.JPG',
+    '/sorpresa/2.JPG', 
+    '/sorpresa/3.JPG',
+    '/sorpresa/4.JPG',
+    '/sorpresa/5.JPG',
+    '/sorpresa/6.JPG',
+    '/sorpresa/7.JPG',
+    '/sorpresa/8.JPG',
+    '/sorpresa/9.JPG',
+    '/sorpresa/10.JPG',
+    '/sorpresa/11.JPG'
   ];
 
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
@@ -55,7 +55,7 @@ export function WelcomeScreen() {
             style={{
               backgroundImage: `url('${image}')`,
               backgroundSize: '60%',
-              filter: 'blur(3px)',
+              filter: 'blur(6px)',
               transform: `scale(1.1) ${index === currentImageIndex ? 'translateX(0)' : 'translateX(20px)'}`,
             }}
           />
